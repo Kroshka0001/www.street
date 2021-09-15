@@ -1,0 +1,258 @@
+﻿* {
+	margin: 0; 
+	padding: 0; 
+	font-family: Verdana;
+	font-size:12px;
+}
+h1 {
+	font-size:16px;
+	color:#aa6a01;
+	font-weight:bold;
+	text-align:center;
+}
+h2 {
+	font-size:18px;
+	font-weight:bold;
+	color: #ffffff;
+	width: 100%;
+}
+*html h2{	width: 10%;}
+h3{
+	font-size:14px;
+	background:url(../images/h3.jpg) repeat-x;
+	color:#aa6a01;
+	font-weight:bold;
+	text-align:left;
+	padding:6px 0 6px 15px;
+}
+h4{
+	color:#422c01;
+	font-size: 13px;
+    font-style: italic;
+	text-align:left;
+	padding:6px 6px;
+}
+h5{   
+	font-size:13px;
+	font-style: italic;
+	text-indent: 30px;
+}
+a img {
+	border:0px;
+}
+#str {
+	width:985px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#c1b9ac;
+}
+#conteiners{
+	overflow: hidden;
+	width:900px;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#ede6dc;
+	padding-bottom: 15px;
+}
+
+/* Galereya */
+#galereya{
+	position: relative; 
+	top: 0;
+	width:100%;
+	height:357px;
+	padding-top:30px; 
+}
+.gallery { 
+	width:798px; 
+	height:410px; 
+	margin:0 auto; 
+	padding-top:50px; 
+	padding:0 35px; 
+	background:url(../images/shade1.png) no-repeat center bottom; 
+}
+#slider { 
+	width:796px; 
+	height:357px; 
+	margin:0 auto; 
+	padding:0; 
+	list-style:none; 
+	border:1px solid #b0b0b0; 
+}
+#slider ul, #slider li { 
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+	height:357px; 
+}
+#slider li { 
+	overflow:hidden; 
+	margin:0 auto; 
+}
+p#controls { 
+	margin:0 auto; 
+	position:relative; 
+}
+#prevBtn { 
+	left:-36px; 
+	top:-220px; 
+}
+#nextBtn { 
+	left:798px; 
+	top:-220px; 
+}
+#prevBtn , #nextBtn {
+	display:block; 
+	margin:0; 
+	overflow:hidden; 
+	width:36px; 
+	height:82px; 
+	position:absolute; 
+}
+#prevBtn a { 
+	background:url(../images/arrow_l.png) no-repeat 0 0; 
+}
+#nextBtn a { 
+	background:url(../images/arrow_r.png) no-repeat 0 0; 
+}	
+#prevBtn a, #nextBtn a {
+	display:block; 
+	width:36px; 
+	height:82px; 
+}
+#logopic{
+	overflow: hidden; 
+	position: relative; 
+	height: 50px;
+}	
+/* end Galereya */
+	
+#conteiner{
+	margin: 40px 0 40px 0;
+	width:100%;
+	padding-bottom: 25px;
+}
+#left-colum{
+	margin-left: 30px;
+	float: left;
+	height: 100%;
+	width:270px;
+}
+*html #left-colum{
+	margin-left: 15px;
+}
+#centr{
+	margin-top:40px;
+	margin-right:20px;
+	float: right;
+	width:540px;
+}
+*html #centr{
+	width:550px;
+	margin-right:10px;
+}
+#content h4{
+	text-indent: 30px;
+}
+#content p, #history p, #kamni p{
+	font: 12px Verdana;
+	text-indent: 20px;
+}
+#history h1, #kamni h1{
+	padding-bottom: 10px; 
+}
+#anonss{
+	margin-top:40px;
+	text-indent: 20px;
+	float: none;
+}
+#anons1{
+	float: right;
+	width:250px;
+}
+#anons2{
+	float: left;
+	width:260px;
+}
+#pogoda{
+	margin-top:40px;
+	width:270px;
+	padding-bottom: 20px;
+	margin-bottom:40px;
+}
+#pogoda, #ssylki{
+	background: #ffffff;
+}
+#informer{
+	width:270px;
+	height:170px;
+}
+#ssylki{
+	width:270px;
+	height:100%;
+	float: left;
+	padding-bottom: 10px;
+}
+#ssylki ul { 
+	margin:0;
+	padding: 5px 15px 15px 20px;
+}
+#ssylki ul li {
+	float: left;
+	list-style: none;
+	width: 100%;
+}
+#ssylki ul li a {
+	display: block;
+	color: #422c01;
+	height: 25px;
+	line-height: 20px;
+	text-decoration: none;
+	font: bold 12px Verdana;
+	font-style: italic;
+	font-weight: bold;
+	text-indent: 5px;
+}
+#ssylki ul li a:hover {
+	background: #fea700;
+	color:white;
+	text-decoration: none;
+}
+#footer{
+	float: none;
+	width: 900px;
+	height:360px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 25px;
+}
+#table{
+	width: 100%;
+	height:300px;
+	table-layout: fixed;
+	background:#c1b9ac;
+}
+#karta{
+	float:right;
+	padding-right:0;
+}
+.pic2{
+	margin-top: 10px;
+}
+.pic1, .pic2{
+	margin-left: 10px;
+}
+.strelka{
+	margin-left: 150px;
+}
+.karta_1{
+	width: 350px;
+	height: 250px;
+	margin: 10px 0 20px 90px;
+}
+.kamen_1{
+   width: 300px;
+   height: 200px;
+   margin: 10px 0 20px 130px;
+}
